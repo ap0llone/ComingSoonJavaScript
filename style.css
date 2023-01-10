@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    position: relative;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 30%;
+}
+.content h1{
+    color: #fff;
+    font-size: 80px;
+    letter-spacing: 2px;
+}
+.container p{
+    color: #fff;
+    text-align: center;
+}
+.launch-time{
+    display: flex;
+    justify-content: center;
+}
+.launch-time div{
+    flex-basis: 100px;
+}
+.launch-time div p{
+    font-size: 60px;
+    margin-bottom: -7px;
+}
+.launch-time span{
+    justify-content: center;
+    display: flex;
+    color: #fff;
+}
